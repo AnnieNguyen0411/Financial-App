@@ -1,0 +1,14 @@
+[project]
+name = "thesis-capital"
+version = "1.0.0"
+description = "Wealth planning for master's and PhD students (Python Shiny)"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 160
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "C4", "RUF"]
+# dict(...) keyword style is the Plotly convention for layout/marker options
+ignore = ["C408", "E501", "RUF001", "RUF002", "RUF003", "RUF005", "E731", "B023"]

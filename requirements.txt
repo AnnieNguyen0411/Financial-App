@@ -1,0 +1,9 @@
+shiny>=1.2
+shinywidgets>=0.5
+plotly>=5.24
+pandas>=2.0
+numpy>=1.26
+requests>=2.31
+yfinance>=0.2.50
+# optional, only for scripts/fetch_wrds_data.py:
+# wrds>=3.2
